@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BuyBusy/static/css/main.accf2daa.css",
+    "main.js": "/BuyBusy/static/js/main.6040e64b.js",
+    "static/media/Error.png": "/BuyBusy/static/media/Error.ac5a2835433bf4b351d3.png",
+    "static/media/Logo.png": "/BuyBusy/static/media/Logo.15763d29ee983fa77248.png",
+    "index.html": "/BuyBusy/index.html",
+    "main.accf2daa.css.map": "/BuyBusy/static/css/main.accf2daa.css.map",
+    "main.6040e64b.js.map": "/BuyBusy/static/js/main.6040e64b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.accf2daa.css",
+    "static/js/main.6040e64b.js"
+  ]
+}
