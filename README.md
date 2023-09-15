@@ -1,5 +1,5 @@
 # BuyBusy App
-> (BuyBusy)[https://buybusy.onrender.com] is a web application for the customers of an e-commerce business.
+> [BuyBusy](https://buybusy.onrender.com) is a web application for the customers of an e-commerce business.
 
 ##  Getting Started 
 -  Fork the Project in your Repository.
