@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# BuyBusy App
+> BuyBusy is a web application for the customers of an e-commerce business.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  Getting Started 
+-  Fork the Project in your Repository.
+-  Clone the Forked Repository in your Local System.
+-  Run 'npm install'.
+-  Run 'npm start'.
+-  Enjoy :)
 
-## Available Scripts
+For any issues related to the project, raise an ISSUE in the respective Repository.
 
-In the project directory, you can run:
+## Functionalities
+- BuyBusy enables individuals to browse through various product to choose from.
+- It allows user to create their own account to manage thier cart and orders.
+- It provides options for users to add or remove products from their shopping carts.
+- It has complete functionality for purchasing the products.
+- The application has user-friendly interface and have a visually appealing design that encourages users to explore and use the platform regularly.
 
-### `npm start`
+## Technologies Used
+- React
+- HTML - CSS
+- Firebase: Authentication
+- Firebase: Firestore
+- react-loader-spinner
+- react-toastify
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## File Structure
+### The PhotoFolio app is built using 8 components:
+- Navbar: Displays the logo image, search bar, buttons for login/logout, filters, cart and orders.
+- Error: Error Handling Page when there's an error.
+- Home: Displays a list of products fetched from the file.
+- ProductCard: Displays an individual product.
+- Orders: Displays a list of previous orders of a user.
+- Cart: Displays items in the cart of a user.
+- SignIn: Displays the a Sign-in page.
+- SignUp: Displays the a Sign-up page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Other files used in the project
+- authContext: A context api for user authentication.
+- productContext: A context api for product management.
+- data: A file containing list of products details.
+- firebaseInit: A file for storing firebase configuration.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## API Structure
+The firebase API would look like this:
+- users to store all the users currently using with the app.
+- users/cart To store all the items in cart of a particular user.
+- users/order to store all the orders of a particular user.
