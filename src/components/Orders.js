@@ -15,7 +15,7 @@ function Orders() {
     useEffect(() => {
         setTimeout(()=> {
             setLoading(false);
-        }, 850);
+        }, 350);
     },[]);
 
     // fetch new orders
