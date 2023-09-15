@@ -1,5 +1,5 @@
 # BuyBusy App
-> BuyBusy is a web application for the customers of an e-commerce business.
+> (BuyBusy)[https://buybusy.onrender.com] is a web application for the customers of an e-commerce business.
 
 ##  Getting Started 
 -  Fork the Project in your Repository.
@@ -19,11 +19,12 @@ For any issues related to the project, raise an ISSUE in the respective Reposito
 
 ## Technologies Used
 - React
-- HTML - CSS
 - Firebase: Authentication
 - Firebase: Firestore
+- Bootstrap
 - react-loader-spinner
 - react-toastify
+- HTML - CSS
 
 ## File Structure
 ### The PhotoFolio app is built using 8 components:
